@@ -6,199 +6,193 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/lilac
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/lilac/proprietary/bin/updatemiscta:$(TARGET_COPY_OUT_SYSTEM)/bin/updatemiscta \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fs_empty.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fs_empty.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_ais_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ais_th_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_altice_do_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_altice_do_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_asiapacific_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_asiapacific_tw_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_att_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_att_us_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_beeline_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_beeline_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_bell_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bell_ca_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_bite_latvia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bite_latvia_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_bite_lithuania_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bite_lithuania_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_bouygues_france_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bouygues_france_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_canada_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_cellc_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_cellc_za_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_china_mobile_cn_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_china_mobile_cn_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_china_mobile_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_china_mobile_hk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_cht_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_cht_tw_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_ar_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_ar_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_br_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_cl_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_cl_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_co_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_co_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_co_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_do_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_do_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_claro_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_pe_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_csl_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_csl_hk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_ctm_mo_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ctm_mo_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_dna_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_dna_finland_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_dtac_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_dtac_th_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_du_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_du_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_ee_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ee_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_elisa_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_elisa_estonia_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_elisa_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_elisa_finland_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_emt_estonia_volte_vilte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_emt_estonia_volte_vilte_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_entel_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_entel_cl_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_entel_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_entel_pe_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_etisalat_ae_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_etisalat_ae_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_fareastone_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_fareastone_tw_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_free_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_free_france_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_freedom_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_freedom_ca_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_gteb_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_gteb_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_austria_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_austria_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_hk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_ireland_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_italy_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_italy_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_hutch_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_uk_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_gte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_gte_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_jazztel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_jazztel_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_kpn_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kpn_netherlands_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_kpn_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kpn_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_kt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kt_kr_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_lguplus_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_lguplus_kr_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_m1_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_m1_sg_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_megafon_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_megafon_ru_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_meo_portugal_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meo_portugal_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_meteor_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meteor_ireland_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_meteor_ireland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meteor_ireland_vowifi_only_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_monaco_telecom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_monaco_telecom_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_ar_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_ar_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_cl_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_co_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_dtm_off_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_dtm_off_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_mx_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_mx_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_pe_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_movistar_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_mtel_bulgaria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mtel_bulgaria_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_mtn_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mtn_za_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_mts_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mts_ru_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_optus_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_optus_au_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_france_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_pp_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_group_lab_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_group_lab_pp_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_poland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_poland_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_poland_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_romania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_romania_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_slovakia_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_slovakia_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_spain_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_orange_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_pccw_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_pccw_hk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_pelephone_israel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_pelephone_israel_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_play_poland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_play_poland_vowifi_only_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_proximus_belgium_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_proximus_belgium_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_proximus_belgium_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_proximus_belgium_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_reliance_com_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_reliance_com_in_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_reliance_jio_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_reliance_jio_in_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_rogers_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_rogers_ca_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_salt_switzerland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_salt_switzerland_vowifi_only_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_sfr_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sfr_france_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_singtel_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_singtel_sg_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_skt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_skt_kr_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_sky_uk_lab_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sky_uk_lab_vowifi_only_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_sky_uk_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sky_uk_vowifi_only_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_smartone_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_smartone_hk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_spark_nz_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_spark_nz_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_starhub_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_starhub_sg_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_stc_sa_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_stc_sa_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_sunrise_switzerland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sunrise_switzerland_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_swisscom_switzerland_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_swisscom_switzerland_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tdc_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tdc_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telcel_mx_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telcel_mx_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telcel_mx_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telcel_mx_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tele2_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_estonia_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tele2_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_netherlands_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tele2_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_ru_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tele2_sweden_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_sweden_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telefonica_germany_volte_vilte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_germany_volte_vilte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telefonica_uk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_uk_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telefonica_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_uk_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_croatia_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_czech_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_germany_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_greece_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_greece_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_hungary_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_netherlands_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_poland_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_slovakia_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_slovakia_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telekom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telenor_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_denmark_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telenor_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_norway_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telenor_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telia_denmark_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_denmark_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telia_finland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_finland_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telia_lithuania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_lithuania_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telia_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_norway_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telia_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_sweden_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telkom_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telkom_za_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_telstra_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telstra_au_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tim_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tim_br_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tim_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tim_italy_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tmobile_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_austria_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tmobile_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_us_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tmobile_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_us_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_truemove_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_truemove_th_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_tstar_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tstar_tw_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_turktelekom_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turktelekom_turkey_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_twm_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_twm_tw_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_verizon_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_verizon_us_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vha_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vha_au_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_videotron_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_videotron_ca_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vipnet_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vipnet_croatia_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_virgin_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_virgin_uk_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vivo_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vivo_br_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vivo_br_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vivo_br_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodacom_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodacom_za_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone3_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone3_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone4_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone4_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone5_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone5_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_czech_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_germany_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_germany_pp_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_germany_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_global_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_global_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_hungary_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_in_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_italy_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_spain_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_ims_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn \
-    vendor/sony/lilac/proprietary/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/cmnlib64.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib64.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/cmnlib64.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib64.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/fidocfg.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocfg.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/fidocfg.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocfg.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/fidocrypto.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/fidocrypto.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/tzattest.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/tzattest.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
-    vendor/sony/lilac/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
-    vendor/sony/lilac/proprietary/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin \
-    vendor/sony/lilac/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
-    vendor/sony/lilac/proprietary/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmi_cci_system.so \
-    vendor/sony/lilac/proprietary/lib64/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor1.so \
-    vendor/sony/lilac/proprietary/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg.so \
-    vendor/sony/lilac/proprietary/lib64/libsensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_test.so \
+    vendor/sony/lilac/proprietary/system/bin/updatemiscta:$(TARGET_COPY_OUT_SYSTEM)/bin/updatemiscta \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fs_empty.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fs_empty.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_ais_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ais_th_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_altice_do_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_altice_do_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_asiapacific_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_asiapacific_tw_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_att_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_att_us_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_beeline_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_beeline_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_bell_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bell_ca_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_bite_latvia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bite_latvia_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_bite_lithuania_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bite_lithuania_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_bouygues_france_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_bouygues_france_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_canada_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_cellc_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_cellc_za_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_china_mobile_cn_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_china_mobile_cn_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_china_mobile_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_china_mobile_hk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_cht_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_cht_tw_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_ar_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_ar_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_br_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_cl_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_cl_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_co_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_co_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_co_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_do_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_do_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_claro_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_claro_pe_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_csl_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_csl_hk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_ctm_mo_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ctm_mo_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_dna_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_dna_finland_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_dtac_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_dtac_th_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_du_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_du_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_ee_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ee_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_elisa_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_elisa_estonia_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_elisa_finland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_elisa_finland_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_emt_estonia_volte_vilte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_emt_estonia_volte_vilte_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_entel_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_entel_cl_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_entel_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_entel_pe_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_etisalat_ae_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_etisalat_ae_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_fareastone_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_fareastone_tw_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_free_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_free_france_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_freedom_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_freedom_ca_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_gteb_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_gteb_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_austria_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_austria_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_austria_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_hk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_ireland_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_italy_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_italy_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_hutch_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_hutch_uk_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_gte_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_gte_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_ir51_ir92_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_jazztel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_jazztel_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_kpn_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kpn_netherlands_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_kpn_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kpn_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_kt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_kt_kr_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_lguplus_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_lguplus_kr_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_m1_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_m1_sg_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_megafon_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_megafon_ru_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_meo_portugal_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meo_portugal_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_meteor_ireland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meteor_ireland_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_meteor_ireland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_meteor_ireland_vowifi_only_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_monaco_telecom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_monaco_telecom_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_ar_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_ar_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_cl_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_cl_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_co_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_co_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_dtm_off_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_dtm_off_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_mx_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_mx_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_pe_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_pe_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_movistar_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_movistar_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_mtel_bulgaria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mtel_bulgaria_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_mtn_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mtn_za_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_mts_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_mts_ru_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_optus_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_optus_au_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_france_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_pp_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_france_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_france_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_group_lab_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_group_lab_pp_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_poland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_poland_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_poland_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_romania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_romania_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_slovakia_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_slovakia_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_spain_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_orange_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_orange_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_pccw_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_pccw_hk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_pelephone_israel_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_pelephone_israel_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_play_poland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_play_poland_vowifi_only_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_proximus_belgium_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_proximus_belgium_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_proximus_belgium_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_proximus_belgium_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_reliance_com_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_reliance_com_in_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_reliance_jio_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_reliance_jio_in_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_rogers_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_rogers_ca_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_salt_switzerland_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_salt_switzerland_vowifi_only_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_sfr_france_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sfr_france_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_singtel_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_singtel_sg_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_skt_kr_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_skt_kr_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_sky_uk_lab_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sky_uk_lab_vowifi_only_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_sky_uk_vowifi_only_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sky_uk_vowifi_only_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_smartone_hk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_smartone_hk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_spark_nz_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_spark_nz_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_starhub_sg_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_starhub_sg_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_stc_sa_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_stc_sa_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_sunrise_switzerland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_sunrise_switzerland_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_swisscom_switzerland_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_swisscom_switzerland_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tdc_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tdc_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telcel_mx_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telcel_mx_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telcel_mx_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telcel_mx_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tele2_estonia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_estonia_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tele2_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_netherlands_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tele2_ru_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_ru_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tele2_sweden_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tele2_sweden_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telefonica_germany_volte_vilte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_germany_volte_vilte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telefonica_uk_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_uk_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telefonica_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telefonica_uk_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_croatia_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_czech_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_germany_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_greece_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_greece_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_hungary_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_netherlands_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_netherlands_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_poland_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_poland_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_slovakia_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_slovakia_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telekom_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telekom_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telenor_denmark_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_denmark_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telenor_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_norway_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telenor_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telenor_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telia_denmark_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_denmark_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telia_finland_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_finland_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telia_lithuania_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_lithuania_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telia_norway_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_norway_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telia_sweden_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telia_sweden_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telkom_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telkom_za_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_telstra_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_telstra_au_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tim_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tim_br_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tim_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tim_italy_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tmobile_austria_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_austria_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tmobile_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_us_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tmobile_us_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tmobile_us_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_truemove_th_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_truemove_th_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_tstar_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_tstar_tw_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turkcell_turkey_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_turktelekom_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_turktelekom_turkey_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_twm_tw_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_twm_tw_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_verizon_us_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_verizon_us_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vha_au_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vha_au_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_videotron_ca_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_videotron_ca_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vipnet_croatia_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vipnet_croatia_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_virgin_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_virgin_uk_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vivo_br_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vivo_br_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vivo_br_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vivo_br_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodacom_za_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodacom_za_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone3_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone3_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone4_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone4_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone5_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone5_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_czech_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_czech_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_germany_pp_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_germany_pp_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_germany_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_germany_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_global_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_global_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_hungary_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_hungary_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_in_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_in_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_italy_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_italy_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_spain_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_spain_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_ims_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_ims_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_turkey_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn \
+    vendor/sony/lilac/proprietary/system/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/cmnlib64.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib64.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/cmnlib64.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib64.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/fidocfg.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocfg.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/fidocfg.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocfg.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/fidocrypto.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/fidocrypto.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tzattest.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tzattest.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
+    vendor/sony/lilac/proprietary/system/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
+    vendor/sony/lilac/proprietary/system/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin \
     vendor/sony/lilac/proprietary/vendor/sony/touch/images/big_touch.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/big_touch.png \
-    vendor/sony/lilac/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
-PRODUCT_COPY_FILES += \
+    vendor/sony/lilac/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png \
     vendor/sony/lilac/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/sony/lilac/proprietary/vendor/bin/charge_service:$(TARGET_COPY_OUT_VENDOR)/bin/charge_service \
     vendor/sony/lilac/proprietary/vendor/bin/chargemon:$(TARGET_COPY_OUT_VENDOR)/bin/chargemon \
@@ -227,7 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/bin/taimport_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/taimport_vendor \
     vendor/sony/lilac/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/sony/lilac/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/sony/lilac/proprietary/vendor/camera/CHI08BS0/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS0/color_ctrl.dat \
     vendor/sony/lilac/proprietary/vendor/camera/CHI08BS0/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS0/dataflow.dat \
     vendor/sony/lilac/proprietary/vendor/camera/CHI08BS0/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS0/exposure_ctrl.dat \
     vendor/sony/lilac/proprietary/vendor/camera/CHI08BS0/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS0/exposure_ctrl_diagram.dat \
@@ -434,16 +427,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/lib/hw/camera.lilac.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.lilac.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
-    vendor/sony/lilac/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/sony/lilac/proprietary/vendor/lib/kobjeventd/touch_cover.so:$(TARGET_COPY_OUT_VENDOR)/lib/kobjeventd/touch_cover.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
     vendor/sony/lilac/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/sony/lilac/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/sony/lilac/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/sony/lilac/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
@@ -501,7 +486,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/sony/lilac/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/sony/lilac/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/sony/lilac/proprietary/vendor/lib/libwvtee.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvtee.so \
     vendor/sony/lilac/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/lilac/proprietary/vendor/lib/soundfx/libsonysweffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsonysweffect.so \
     vendor/sony/lilac/proprietary/vendor/lib/soundfx/libznrwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libznrwrapper.so \
@@ -528,14 +512,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/lib64/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.somc.so \
     vendor/sony/lilac/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/sony/lilac/proprietary/vendor/lib64/kobjeventd/touch_cover.so:$(TARGET_COPY_OUT_VENDOR)/lib64/kobjeventd/touch_cover.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/sony/lilac/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
@@ -562,8 +539,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/lib64/libtpm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtpm.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/libwvtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvtee.so \
-    vendor/sony/lilac/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/sony/lilac/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/sony/lilac/proprietary/vendor/lib64/sensors.finger-pickup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.finger-pickup.so \
     vendor/sony/lilac/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
@@ -581,3 +556,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     TimeService
+
+PRODUCT_PACKAGES += \
+    vendor_lib_android_hardware_keymaster@3_0-impl-qti_so \
+    vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so
